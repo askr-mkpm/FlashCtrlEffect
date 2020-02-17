@@ -1,0 +1,1040 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8591834299220409941
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81f47cf64c1969545b2d848a6f6fa95c, type: 3}
+  m_Name: FlashCtrlClip
+  m_EditorClassIdentifier: 
+  access:
+    ColorType: 0
+    color_1: {r: 0, g: 1, b: 1, a: 1}
+    color_2: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+    texture: {fileID: 0}
+    offset: {x: 1, y: 1}
+    tiling: {x: 1, y: 1}
+    borderBlur: 1
+    gradationPos: 1
+    alpha: 1
+    emissionIntensity: 1
+    FlashType: 2
+    flashSpeed: 12.1
+    ScrollMode: 0
+    scrollSpeed: 1
+    scrollCoord_x: 0
+    scrollCoord_y: 0
+    DotMode: 0
+    dotNumber: 64
+    dotSize: 0.5
+    NeonMode: 0
+    flashInterval: 70
+    flashPower: 1
+    RotationType: 0
+    angle: 0
+    autoIntensity: 1
+    FlashCtrlProperty: {fileID: 0}
+--- !u!114 &-3955444838643576477
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6dd36d2f5c03231439d7221aafb172f4, type: 3}
+  m_Name: Flash Ctrl Track
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children: []
+  m_Clips:
+  - m_Version: 1
+    m_Start: 0
+    m_ClipIn: 0
+    m_Asset: {fileID: 631217862443792355}
+    m_Duration: 1.7166666666666666
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: -3955444838643576477}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: 0.8499999999999999
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: FlashCtrlClip
+  - m_Version: 1
+    m_Start: 0.8666666666666667
+    m_ClipIn: 0
+    m_Asset: {fileID: -2292997244127186180}
+    m_Duration: 1.7166666666666666
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: -3955444838643576477}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0.8499999999999999
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: FlashCtrlClip
+  - m_Version: 1
+    m_Start: 2.583333333333
+    m_ClipIn: 0
+    m_Asset: {fileID: -8591834299220409941}
+    m_Duration: 1.7166666666666666
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: -3955444838643576477}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: FlashCtrlClip
+  - m_Version: 1
+    m_Start: 4.299999999999667
+    m_ClipIn: 0
+    m_Asset: {fileID: 7689078073510559274}
+    m_Duration: 1.6500000000003334
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: -3955444838643576477}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: 1.5
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: FlashCtrlClip
+  - m_Version: 1
+    m_Start: 4.45
+    m_ClipIn: 0
+    m_Asset: {fileID: 8431800517526331164}
+    m_Duration: 2.2
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: -3955444838643576477}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 1.5
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: FlashCtrlClip
+  - m_Version: 1
+    m_Start: 6.65
+    m_ClipIn: 0
+    m_Asset: {fileID: 8616291857366998805}
+    m_Duration: 1.7166666666666666
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: -3955444838643576477}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: 0.8500000000000005
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: FlashCtrlClip
+  - m_Version: 1
+    m_Start: 7.516666666666667
+    m_ClipIn: 0
+    m_Asset: {fileID: -3242886888014862291}
+    m_Duration: 1.7166666666666666
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: -3955444838643576477}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0.8500000000000005
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: FlashCtrlClip
+  - m_Version: 1
+    m_Start: 9.233333333333
+    m_ClipIn: 0
+    m_Asset: {fileID: 6396596180046317280}
+    m_Duration: 1.7166666666666666
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: -3955444838643576477}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: FlashCtrlClip
+  - m_Version: 1
+    m_Start: 10.949999999999669
+    m_ClipIn: 0
+    m_Asset: {fileID: 251280242919544744}
+    m_Duration: 1.6500000000003334
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: -3955444838643576477}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: 1.5666666666666682
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: FlashCtrlClip
+  - m_Version: 1
+    m_Start: 11.033333333333333
+    m_ClipIn: 0
+    m_Asset: {fileID: 3513898705685995849}
+    m_Duration: 3.283333333333333
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: -3955444838643576477}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 1.5666666666666682
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: FlashCtrlClip
+  m_Markers:
+    m_Objects: []
+--- !u!114 &-3242886888014862291
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81f47cf64c1969545b2d848a6f6fa95c, type: 3}
+  m_Name: FlashCtrlClip
+  m_EditorClassIdentifier: 
+  access:
+    ColorType: 0
+    color_1: {r: 0, g: 1, b: 1, a: 1}
+    color_2: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+    texture: {fileID: 0}
+    offset: {x: 1, y: 1}
+    tiling: {x: 1, y: 1}
+    borderBlur: 1
+    gradationPos: 1
+    alpha: 1
+    emissionIntensity: 1
+    FlashType: 0
+    flashSpeed: 1
+    ScrollMode: 0
+    scrollSpeed: 1
+    scrollCoord_x: 0
+    scrollCoord_y: 0
+    DotMode: 1
+    dotNumber: 18
+    dotSize: 0.793
+    NeonMode: 0
+    flashInterval: 70
+    flashPower: 1
+    RotationType: 0
+    angle: 0
+    autoIntensity: 1
+    FlashCtrlProperty: {fileID: 0}
+--- !u!114 &-2292997244127186180
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81f47cf64c1969545b2d848a6f6fa95c, type: 3}
+  m_Name: FlashCtrlClip
+  m_EditorClassIdentifier: 
+  access:
+    ColorType: 0
+    color_1: {r: 0, g: 1, b: 1, a: 1}
+    color_2: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+    texture: {fileID: 0}
+    offset: {x: 1, y: 1}
+    tiling: {x: 1, y: 1}
+    borderBlur: 1
+    gradationPos: 1
+    alpha: 1
+    emissionIntensity: 1
+    FlashType: 0
+    flashSpeed: 1
+    ScrollMode: 0
+    scrollSpeed: 1
+    scrollCoord_x: 0
+    scrollCoord_y: 0
+    DotMode: 0
+    dotNumber: 64
+    dotSize: 0.5
+    NeonMode: 0
+    flashInterval: 70
+    flashPower: 1
+    RotationType: 0
+    angle: 0
+    autoIntensity: 1
+    FlashCtrlProperty: {fileID: 0}
+--- !u!114 &-1339976720166513636
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a16748d9461eae46a725db9776d5390, type: 3}
+  m_Name: Markers
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children: []
+  m_Clips: []
+  m_Markers:
+    m_Objects: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfda56da833e2384a9677cd3c976a436, type: 3}
+  m_Name: sample
+  m_EditorClassIdentifier: 
+  m_Version: 0
+  m_Tracks:
+  - {fileID: -3955444838643576477}
+  m_FixedDuration: 0
+  m_EditorSettings:
+    m_Framerate: 60
+  m_DurationMode: 0
+  m_MarkerTrack: {fileID: -1339976720166513636}
+--- !u!114 &251280242919544744
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81f47cf64c1969545b2d848a6f6fa95c, type: 3}
+  m_Name: FlashCtrlClip
+  m_EditorClassIdentifier: 
+  access:
+    ColorType: 1
+    color_1: {r: 0, g: 1, b: 1, a: 1}
+    color_2: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+    texture: {fileID: 0}
+    offset: {x: 1, y: 1}
+    tiling: {x: 1, y: 1}
+    borderBlur: 1
+    gradationPos: 1
+    alpha: 1
+    emissionIntensity: 1
+    FlashType: 0
+    flashSpeed: 1
+    ScrollMode: 1
+    scrollSpeed: 7
+    scrollCoord_x: 0
+    scrollCoord_y: 0
+    DotMode: 0
+    dotNumber: 64
+    dotSize: 0.5
+    NeonMode: 0
+    flashInterval: 70
+    flashPower: 1
+    RotationType: 0
+    angle: 0
+    autoIntensity: 1
+    FlashCtrlProperty: {fileID: 0}
+--- !u!114 &631217862443792355
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81f47cf64c1969545b2d848a6f6fa95c, type: 3}
+  m_Name: FlashCtrlClip
+  m_EditorClassIdentifier: 
+  access:
+    ColorType: 0
+    color_1: {r: 0, g: 0, b: 0, a: 1}
+    color_2: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+    texture: {fileID: 0}
+    offset: {x: 1, y: 1}
+    tiling: {x: 1, y: 1}
+    borderBlur: 1
+    gradationPos: 1
+    alpha: 1
+    emissionIntensity: 1
+    FlashType: 0
+    flashSpeed: 1
+    ScrollMode: 0
+    scrollSpeed: 1
+    scrollCoord_x: 0
+    scrollCoord_y: 0
+    DotMode: 0
+    dotNumber: 64
+    dotSize: 0.5
+    NeonMode: 0
+    flashInterval: 70
+    flashPower: 1
+    RotationType: 0
+    angle: 0
+    autoIntensity: 1
+    FlashCtrlProperty: {fileID: 0}
+--- !u!114 &3513898705685995849
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81f47cf64c1969545b2d848a6f6fa95c, type: 3}
+  m_Name: FlashCtrlClip
+  m_EditorClassIdentifier: 
+  access:
+    ColorType: 1
+    color_1: {r: 0, g: 0, b: 0, a: 1}
+    color_2: {r: 0, g: 0, b: 0, a: 1}
+    texture: {fileID: 0}
+    offset: {x: 1, y: 1}
+    tiling: {x: 1, y: 1}
+    borderBlur: 1
+    gradationPos: 1
+    alpha: 1
+    emissionIntensity: 1
+    FlashType: 0
+    flashSpeed: 1
+    ScrollMode: 1
+    scrollSpeed: 7
+    scrollCoord_x: 0
+    scrollCoord_y: 0
+    DotMode: 0
+    dotNumber: 64
+    dotSize: 0.5
+    NeonMode: 0
+    flashInterval: 70
+    flashPower: 1
+    RotationType: 0
+    angle: 10
+    autoIntensity: 1
+    FlashCtrlProperty: {fileID: 0}
+--- !u!114 &6396596180046317280
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81f47cf64c1969545b2d848a6f6fa95c, type: 3}
+  m_Name: FlashCtrlClip
+  m_EditorClassIdentifier: 
+  access:
+    ColorType: 0
+    color_1: {r: 0, g: 1, b: 1, a: 1}
+    color_2: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+    texture: {fileID: 0}
+    offset: {x: 1, y: 1}
+    tiling: {x: 1, y: 1}
+    borderBlur: 1
+    gradationPos: 1
+    alpha: 1
+    emissionIntensity: 1
+    FlashType: 2
+    flashSpeed: 12.1
+    ScrollMode: 0
+    scrollSpeed: 1
+    scrollCoord_x: 0
+    scrollCoord_y: 0
+    DotMode: 1
+    dotNumber: 18
+    dotSize: 0.793
+    NeonMode: 0
+    flashInterval: 70
+    flashPower: 1
+    RotationType: 0
+    angle: 0
+    autoIntensity: 1
+    FlashCtrlProperty: {fileID: 0}
+--- !u!114 &7689078073510559274
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81f47cf64c1969545b2d848a6f6fa95c, type: 3}
+  m_Name: FlashCtrlClip
+  m_EditorClassIdentifier: 
+  access:
+    ColorType: 0
+    color_1: {r: 0, g: 1, b: 1, a: 1}
+    color_2: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+    texture: {fileID: 0}
+    offset: {x: 1, y: 1}
+    tiling: {x: 1, y: 1}
+    borderBlur: 1
+    gradationPos: 1
+    alpha: 1
+    emissionIntensity: 1
+    FlashType: 0
+    flashSpeed: 1
+    ScrollMode: 0
+    scrollSpeed: 1
+    scrollCoord_x: 0
+    scrollCoord_y: 0
+    DotMode: 0
+    dotNumber: 64
+    dotSize: 0.5
+    NeonMode: 0
+    flashInterval: 70
+    flashPower: 1
+    RotationType: 0
+    angle: 0
+    autoIntensity: 1
+    FlashCtrlProperty: {fileID: 0}
+--- !u!114 &8431800517526331164
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81f47cf64c1969545b2d848a6f6fa95c, type: 3}
+  m_Name: FlashCtrlClip
+  m_EditorClassIdentifier: 
+  access:
+    ColorType: 0
+    color_1: {r: 0, g: 0, b: 0, a: 1}
+    color_2: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+    texture: {fileID: 0}
+    offset: {x: 1, y: 1}
+    tiling: {x: 1, y: 1}
+    borderBlur: 1
+    gradationPos: 1
+    alpha: 1
+    emissionIntensity: 1
+    FlashType: 0
+    flashSpeed: 1
+    ScrollMode: 0
+    scrollSpeed: 1
+    scrollCoord_x: 0
+    scrollCoord_y: 0
+    DotMode: 0
+    dotNumber: 64
+    dotSize: 0.5
+    NeonMode: 0
+    flashInterval: 70
+    flashPower: 1
+    RotationType: 0
+    angle: 0
+    autoIntensity: 1
+    FlashCtrlProperty: {fileID: 0}
+--- !u!114 &8616291857366998805
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81f47cf64c1969545b2d848a6f6fa95c, type: 3}
+  m_Name: FlashCtrlClip
+  m_EditorClassIdentifier: 
+  access:
+    ColorType: 0
+    color_1: {r: 0, g: 0, b: 0, a: 1}
+    color_2: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+    texture: {fileID: 0}
+    offset: {x: 1, y: 1}
+    tiling: {x: 1, y: 1}
+    borderBlur: 1
+    gradationPos: 1
+    alpha: 1
+    emissionIntensity: 1
+    FlashType: 0
+    flashSpeed: 1
+    ScrollMode: 0
+    scrollSpeed: 1
+    scrollCoord_x: 0
+    scrollCoord_y: 0
+    DotMode: 0
+    dotNumber: 18
+    dotSize: 0.793
+    NeonMode: 0
+    flashInterval: 70
+    flashPower: 1
+    RotationType: 0
+    angle: 0
+    autoIntensity: 1
+    FlashCtrlProperty: {fileID: 0}
