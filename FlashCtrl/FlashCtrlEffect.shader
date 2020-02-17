@@ -49,8 +49,7 @@ Shader "mikipomaid/FlashCtrlEffect"
         [Enum(UnityEngine.Rendering.BlendMode)]
         _DstFactor("Blend Dst Factor", Float) = 10    
 
-        [Header(ForFlashCtrl)]
-        _flashProperty("FlashProperty", Range(0,1))=1
+        [HideInInspector]_flashProperty("FlashProperty", Range(0,1))=1
     }
 
     SubShader
